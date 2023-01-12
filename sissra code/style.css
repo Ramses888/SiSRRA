@@ -218,3 +218,33 @@ h1 {
     top: 1200px;
     left: 200px;
 }
+
+.haut{
+    background-color: black;
+}
+
+.haut p{
+    color: #fff;
+    text-align: center;
+    margin-top: 1500px;
+    background-color: #000;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color:#000;
+    color: #fff;
+    margin-top: 1400px;
+}
+
+.fooot {
+    position: absolute;
+    margin-top: 100px;
+    left: 500px;
+    text-align: center;
+    padding: 5px;
+    background-color:#000;
+}
+
