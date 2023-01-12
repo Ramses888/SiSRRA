@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #2D6D54;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 60px;
+    z-index: 100000;
+  }
+  
+  header.sticky {
+      padding: 40px 80px;
+      background: #2D6D54;
+  }
+  
+  
+  header ul {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  header ul li {
+      position: relative;
+      list-style: none;
+  }
+  
+  header ul li a {
+      position: relative;
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      letter-spacing: 2px;
+      font-weight: 500px;
+      transition: 0.6s;
+  }
+  
+
+.logo img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 150px;
+}
+
+h1 {
+    margin-top: 100px;
+    top: 250px;
+    left: 300px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 300px;
+	text-align: center;
+	color:#FFFFFF;
+    justify-content: center;
+}
+
+.landing img {
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 90px;
+    width: 1200px;
+}
+
+.journal {
+    background-color: #FFFFFF;
+    top: 1310px;
+	left: 0px;
+	width: 1512px;
+	height: 120px;
+    margin-top: 50px;
+}
+
+.journal img {
+    align-content: center;
+    margin-top: 25px;
+    margin-left: 90px;
+    width: 1200px;
+}
+
+.Hist {
+    width: 600px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+    background-color: black;
+}
+
+.figTT{
+    position: absolute;
+    top: 25px;
+
+}
+
+.figI{
+    position: absolute;
+    right: 450px;
+    top: 150px;
+}
+
+.figT{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    left: 330px;
+    top: 140px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    text-align: right;
+    line-height: 25px;
+    color:#FFFFFF;
+}
+
+
+.Produit {
+    width: 600px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+    top: 750px;
+}
+    
+.bak{
+    position: absolute; 
+    right: 600px;
+}
+    
+.Banan{
+    position: absolute;
+    left: 150px;
+}
+    
+.sushi{
+    position: absolute;
+    left: 600px;
+}
+
+
+
+.prodname {
+    top: 700px;
+    left: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100000;
+  }
+  
+  
+.prodname ul {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+.prodname ul li {
+      position: relative;
+      list-style: none;
+  }
+  
+.prodname ul li a {
+      position: relative;
+      top: 1100px;
+      left: 37px;
+      margin: 0 133px;
+      text-decoration: none;
+      color: #fff;
+      letter-spacing: 2px;
+      font-weight: 800px;
+      font-size: 30px;
+  }
+  
+.txtbak {
+    position: relative;
+    top: 1120px;
+    right: 450px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.txtban {
+    position: relative;
+    top: 1085px;
+    left: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.txtsushi {
+    position: relative;
+    top: 1030px;
+    left: 470px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.avis {
+    position: relative;
+    top: 1200px;
+    left: 200px;
+}
